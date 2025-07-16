@@ -5,14 +5,11 @@ n2 = int(input('Digite a segunda nota'))
 n3 = int(input('Digite a terceira nota'))
 n4 = int(input('Digite a quarta nota'))
 
-entrada = input('Voce quer calcular a media destas notas?')
-entrada = entrada.lower()
-print(entrada)
+print('Nota 1 =>', n1)
+print('Nota 2 =>', n2)
+print('Nota 3 =>', n3)
+print('Nota 4 =>', n4)
 
-if entrada == 'sim':
-media = n1+n2+n3+n4
-    print('A média calculada é =>', media)
-elif entrada == 'não':
-    print('Ok, até mais...')
-else:
-    print('Você não escolheu uma opção válida, por favor recomece e escolha entre sim ou não...')
+media = n1+n2+n3+n4/4
+
+print('A média calculada é =>', media)
