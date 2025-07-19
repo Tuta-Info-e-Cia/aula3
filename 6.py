@@ -2,7 +2,7 @@
 calcule e mostre sua área.
 """
 
-n1 = (input('Digite o raio da circunferencia'))
+n1 = float(input('Digite o valor do raio da sua circunferencia'))
 print('O raio escolhido é =>', n1,)
-area = (n1 **2) * 3.14159
+area = (n1 **2) * 3.1415
 print('Portanto a area da sua circunferencia é =>', area) 

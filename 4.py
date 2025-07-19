@@ -10,6 +10,14 @@ print('Nota 2 =>', n2)
 print('Nota 3 =>', n3)
 print('Nota 4 =>', n4)
 
-media = n1+n2+n3+n4/4
+media = (n1+n2+n3+n4)/4
 
 print('A média calculada é =>', media)
+
+if media >=7:
+    print('Situação Aprovado')
+elif media >4 and media <7:
+    print('Em Recuperação')
+else:
+    print('Reprovado')
+    
